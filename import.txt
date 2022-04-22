@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&family=Righteous&family=Sarala&display=swap');
+
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+font-family: 'My Soul', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Sarala', sans-serif;
+
+
+
+<i class="ri-checkbox-blank-circle-fill"></i>
+
+<i class="ri-indeterminate-circle-fill"></i>
+<i class="ri-close-circle-fill"></i>

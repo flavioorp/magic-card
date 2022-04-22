@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&family=Righteous&family=Sarala&display=swap');
+
+:root{
+  --card-heigth: 100vh;
+  --card-width: calc(var(--card-heigth)/1.5)
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(/img/route-66.jpeg) ;
+  background-repeat: no-repeat;
+  background-size:100%;
+  overflow: auto;
+  bottom: 0;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.paste{
+  display: flex;
+  background: transparent;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  width: 800px;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: 0 0 25px black;
+  border: .5px solid rgba(30, 30, 30, 0.300);
+}
+
+.header{
+  display: flex;
+  justify-content: flex-start;
+  background: #c9c8c8;
+  padding: 5px;
+  height: 30px;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  border-bottom: .5px solid rgba(31, 30, 30, 0.300);
+}
+
+.icon__red{
+  color: red;
+  cursor: pointer;
+  z-index: 1;
+}
+
+
+.icon__yellow{
+  color: yellow;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.icon__green{
+  color: green;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.profile{
+  display: flex;
+  position: absolute;
+  margin-top: 35px;
+  height: 310px;
+  width: 130px;
+  border-right: .5px solid rgba(30, 30, 30, 0.300);
+}
+
+.foto{
+  width: 100px;
+  height: 100px;
+  margin-left: 15px;
+  margin-top: 105px;
+}
+
+.news{
+  display: flex;
+  position: absolute;
+  top: 40px;
+  left: 140px;
+  max-height: 100px;
+  overflow: hidden;
+  overflow-y: hidden;
+}
+
+.news h1{
+  font-size: 25px;
+  font-family: 'Righteous';
+}
+
+.paragrafo{
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  top: 120px;
+  left: 140px;
+  max-height: 200px;
+  overflow: hidden;
+  overflow-y: hidden;
+}
+.paragrafo p{
+  font-size: 15px;
+  font-family: 'Sarala';
+  color: #070707;
+}
